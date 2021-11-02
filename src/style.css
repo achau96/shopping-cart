@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.App {
+  text-align: center;
+}
+
 .navbar {
   width: 100%;
   background: lightblue;
@@ -19,4 +23,9 @@
   justify-content: space-around;
   align-items: center;
   width: 30%;
+}
+
+.link-style {
+  color: grey;
+  text-decoration: none;
 }
