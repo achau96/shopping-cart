@@ -1,10 +1,12 @@
 import ryzenList from '../mainpage.jpeg';
+import ryzenComparison from '../ryzen5000comparison.jpeg';
 
 const Home = () => {
   return (
     <div>
-      <h1>This is Home</h1>
-      <img src={ryzenList} alt="All current Ryzens" />
+      <img className="ryzenList" src={ryzenList} alt="All current Ryzens" />
+      <h2>Up to 50% performance improvement</h2>
+      <img src={ryzenComparison} alt="Ryzen Comparison" />
     </div>
   );
 };

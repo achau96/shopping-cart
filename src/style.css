@@ -15,6 +15,7 @@
   justify-content: space-around;
   min-height: 10vh;
   align-items: center;
+  position: fixed;
 }
 
 .nav-links {
@@ -28,8 +29,35 @@
 .logo {
   max-height: 80px;
 }
+
 .link-style {
   color: white;
   text-decoration: none;
   font-size: 20px;
+}
+
+.ryzenList {
+  margin-top: 15vh;
+  max-height: 600px;
+}
+
+.shop {
+  padding-top: 15vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 40px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 7vh;
+}
+
+.cart {
+  padding-top: 15vh;
+}
+
+.itemImg {
+  max-height: 400px;
 }

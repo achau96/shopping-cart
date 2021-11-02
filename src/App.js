@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
 import Shop from './components/Shop';
@@ -7,6 +7,8 @@ import './style.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
+  const [itemCount, setItemCount] = useState(0);
+
   return (
     <Router>
       <div className="App">
