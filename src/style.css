@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100%;
+  background: lightblue;
+  display: flex;
+  justify-content: space-around;
+  min-height: 10vh;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+}
