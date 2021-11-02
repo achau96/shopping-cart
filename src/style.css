@@ -61,3 +61,8 @@
 .itemImg {
   max-height: 400px;
 }
+
+input {
+  text-align: center;
+  width: 50px;
+}
