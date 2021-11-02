@@ -1,9 +1,12 @@
 import { Link } from 'react-router-dom';
+import logo from '../amd-advanced-micro-devices-white.svg';
 
 const NavBar = () => {
   return (
     <div className="navbar">
-      <h3>Logo</h3>
+      <Link to="/">
+        <img className="logo" src={logo} alt="Logo" />
+      </Link>
       <ul className="nav-links">
         <Link className="link-style" to="/">
           <li>Home</li>

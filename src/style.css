@@ -10,7 +10,7 @@
 
 .navbar {
   width: 100%;
-  background: lightblue;
+  background: black;
   display: flex;
   justify-content: space-around;
   min-height: 10vh;
@@ -25,7 +25,11 @@
   width: 30%;
 }
 
+.logo {
+  max-height: 80px;
+}
 .link-style {
-  color: grey;
+  color: white;
   text-decoration: none;
+  font-size: 20px;
 }
