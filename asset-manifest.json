@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.5cc08f1e.chunk.css",
+    "main.js": "/shopping-cart/static/js/main.4afebf2f.chunk.js",
+    "main.js.map": "/shopping-cart/static/js/main.4afebf2f.chunk.js.map",
+    "runtime-main.js": "/shopping-cart/static/js/runtime-main.c3c4442c.js",
+    "runtime-main.js.map": "/shopping-cart/static/js/runtime-main.c3c4442c.js.map",
+    "static/js/2.4bd01e67.chunk.js": "/shopping-cart/static/js/2.4bd01e67.chunk.js",
+    "static/js/2.4bd01e67.chunk.js.map": "/shopping-cart/static/js/2.4bd01e67.chunk.js.map",
+    "index.html": "/shopping-cart/index.html",
+    "static/css/main.5cc08f1e.chunk.css.map": "/shopping-cart/static/css/main.5cc08f1e.chunk.css.map",
+    "static/js/2.4bd01e67.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.4bd01e67.chunk.js.LICENSE.txt",
+    "static/media/5600x.a33847a5.jpg": "/shopping-cart/static/media/5600x.a33847a5.jpg",
+    "static/media/5700x.9d735a23.jpg": "/shopping-cart/static/media/5700x.9d735a23.jpg",
+    "static/media/5800x.4f0e23de.jpeg": "/shopping-cart/static/media/5800x.4f0e23de.jpeg",
+    "static/media/5900x.8acdf5cf.jpeg": "/shopping-cart/static/media/5900x.8acdf5cf.jpeg",
+    "static/media/amd-advanced-micro-devices-white.9d39697b.svg": "/shopping-cart/static/media/amd-advanced-micro-devices-white.9d39697b.svg",
+    "static/media/mainpage.09ac3f99.jpeg": "/shopping-cart/static/media/mainpage.09ac3f99.jpeg",
+    "static/media/ryzen5000comparison.4b1e2da0.jpeg": "/shopping-cart/static/media/ryzen5000comparison.4b1e2da0.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c3c4442c.js",
+    "static/js/2.4bd01e67.chunk.js",
+    "static/css/main.5cc08f1e.chunk.css",
+    "static/js/main.4afebf2f.chunk.js"
+  ]
+}
