@@ -7,7 +7,12 @@ import './style.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
-  const [itemCount, setItemCount] = useState(0);
+  const [checkOut, setCheckOut] = useState({
+    ryzen5600x: 0,
+    ryzen5700x: 0,
+    ryzen5800x: 0,
+    ryzen5900x: 0,
+  });
   const [processors, setProcessors] = useState({
     ryzen5600x: 0,
     ryzen5700x: 0,
@@ -40,10 +45,21 @@ function App() {
     }));
   };
 
+  const addToCart = (item) => {
+    setCheckOut((prevState) => ({
+      ...prevState,
+      [item]: prevState[item] + processors[item],
+    }));
+    setProcessors((prevState) => ({
+      ...prevState,
+      [item]: 0,
+    }));
+  };
+
   return (
     <Router>
       <div className="App">
-        <NavBar />
+        <NavBar checkOut={checkOut} />
         {/*Switch chooses first match unless exact is stated*/}
         <Switch>
           <Route exact path="/" component={Home} />
@@ -55,12 +71,17 @@ function App() {
                 incrementItem={incrementItem}
                 decrementItem={decrementItem}
                 handleProcessorChange={handleProcessorChange}
+                addToCart={addToCart}
                 processors={processors}
               />
             )}
           />
           {console.log(processors)}
-          <Route exact path="/cart" component={Cart} />
+          <Route
+            exact
+            path="/cart"
+            render={() => <Cart checkOut={checkOut} />}
+          />
         </Switch>
       </div>
     </Router>

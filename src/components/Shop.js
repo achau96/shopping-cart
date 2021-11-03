@@ -28,7 +28,9 @@ const Shop = (props) => {
           <button onClick={() => props.incrementItem(`ryzen5600x`)}>+</button>
         </div>
         <div>
-          <button>Add to Cart</button>
+          <button onClick={() => props.addToCart(`ryzen5600x`)}>
+            Add to Cart
+          </button>
         </div>
       </div>
       <div>
@@ -48,7 +50,9 @@ const Shop = (props) => {
           />
           <button onClick={() => props.incrementItem(`ryzen5700x`)}>+</button>
         </div>
-        <button>Add to Cart</button>
+        <button onClick={() => props.addToCart(`ryzen5700x`)}>
+          Add to Cart
+        </button>
       </div>
       <div>
         <img className="itemImg" src={ryzen5800x} alt="ryzen 5800x" />
@@ -65,7 +69,9 @@ const Shop = (props) => {
           />
           <button onClick={() => props.incrementItem(`ryzen5800x`)}>+</button>
         </div>
-        <button>Add to Cart</button>
+        <button onClick={() => props.addToCart(`ryzen5800x`)}>
+          Add to Cart
+        </button>
       </div>
       <div>
         <img className="itemImg" src={ryzen5900x} alt="ryzen 5900x" />
@@ -82,7 +88,9 @@ const Shop = (props) => {
           />
           <button onClick={() => props.incrementItem(`ryzen5900x`)}>+</button>
         </div>
-        <button>Add to Cart</button>
+        <button onClick={() => props.addToCart(`ryzen5900x`)}>
+          Add to Cart
+        </button>
       </div>
     </div>
   );

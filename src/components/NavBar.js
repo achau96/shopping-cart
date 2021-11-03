@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import logo from '../amd-advanced-micro-devices-white.svg';
 
-const NavBar = () => {
+const NavBar = (props) => {
   return (
     <div className="navbar">
       <Link to="/">
@@ -16,7 +16,12 @@ const NavBar = () => {
         </Link>
         <Link className="link-style" to="/cart">
           <li>
-            Cart <u>0</u>
+            <u>
+              Cart{' '}
+              {Object.values(props.checkOut).reduce(
+                (prev, curr) => prev + curr
+              )}
+            </u>
           </li>
         </Link>
       </ul>

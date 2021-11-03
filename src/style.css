@@ -56,6 +56,30 @@
 
 .cart {
   padding-top: 15vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.checkOutBox {
+  width: 400px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.checkOutImg {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.checkOutImg img {
+  max-height: 100px;
 }
 
 .itemImg {
@@ -64,5 +88,23 @@
 
 input {
   text-align: center;
-  width: 50px;
+  width: 40px;
+}
+
+.line {
+  width: 80%;
+  align-self: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.cost {
+  display: flex;
+  justify-content: space-around;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
